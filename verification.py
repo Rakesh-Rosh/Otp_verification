@@ -7,7 +7,7 @@ def generateOTP():
     return randomCode
 
 sender = "anymail@gmail.com" #anymailid
-password = 'lnvg tsuw wmaq oiml' #password of the sender mail id(gmail app code ) 
+password = 'lnvg tsuw wmaq oiml' #password of the sender mail id(gmail app code - for less secure access ) 
 code = generateOTP()
 
 def connectingSender():
