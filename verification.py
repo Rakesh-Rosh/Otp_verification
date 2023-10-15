@@ -6,8 +6,8 @@ def generateOTP():
     randomCode = "".join(str(random.randint(0,9)) for i in range(6))
     return randomCode
 
-sender = "usemefortrash0@gmail.com"
-password = 'lvbg twus wmaq oulh'
+sender = "anymail@gmail.com" #anymailid
+password = 'lnvg tsuw wmaq oiml' #password of the sender mail id 
 code = generateOTP()
 
 def connectingSender():
